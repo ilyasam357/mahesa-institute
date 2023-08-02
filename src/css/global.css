@@ -7,7 +7,7 @@
 }
 
 body {
-    max-width: 360px;
+    /* max-width: 360px; */
     margin-inline: auto;
     background-color: #e0e0e0;
     min-height: 100vh;
@@ -21,6 +21,9 @@ body {
     background: #FFFFFF;
     font-family: 'General Sans';
     font-style: normal;
+}
+ul{
+    list-style: none;
 }
 .bold{
     font-weight: 700;
@@ -41,6 +44,15 @@ body {
   --neu-400 :#818181;
 }
 
+.Color_Green{
+    color: #3ea260;
+}
+.color_secondary2{
+    color: #F8803D;
+}
+.color_primary{
+    color: var(--colors_primary);
+}
 .pricing_card .green{
     background: #3ea260;
 }

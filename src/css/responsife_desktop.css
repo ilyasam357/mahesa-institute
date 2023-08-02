@@ -1,0 +1,335 @@
+.nav_desktop {
+  display: none;
+}
+.ilustration_desktop {
+  display: none;
+}
+.img_desktop > img {
+  display: none;
+}
+.logo_univ_destop {
+  display: none;
+}
+.tumblaindYT {
+  display: none;
+}
+.img_fasilitas {
+  display: none;
+}
+.text_desktop {
+  display: none;
+}
+.tutor_desktop {
+  display: none;
+}
+.btn_destop {
+  display: none;
+}
+
+/* responsife tablet */
+@media screen and (min-width: 768px) {
+    .nav_mobile {
+      padding: 12px 40px;
+    }
+    header {
+      padding: 80px 40px;
+    }
+  
+    /* about */
+    .about .about_heading {
+      padding: 0 40px;
+    }
+    .about_list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 35px 40px;
+      padding: 0 40px;
+    }
+    /* fasilitas */
+    .fasilitas {
+      padding: 32px 40px 80px;
+    }
+    .fasilitas > h1 {
+      margin-bottom: 32px;
+    }
+    /* tutor */
+    .tutor h1{
+      margin: 0 40px 48px;
+    }
+    /* testimoni */
+    .testimoni {
+      padding: 48px 40px 80px;
+    }
+    .card_testimoni {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px 20px;
+    }
+    /* program */
+    .program {
+      padding: 56px 40px 40px;
+    }
+    .card_price {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px 20px;
+    }
+    /* footer */
+    footer {
+      padding: 48px 40px 68px;
+    }
+    .footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      align-items: center;
+    }
+  }
+
+  /* responsife desktop */
+@media screen and (min-width: 1024px) {
+  .nav_mobile {
+    display: none;
+  }
+  .nav_desktop {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 120px;
+  }
+  .nav_desktop > ul {
+    display: flex;
+    gap: 32px;
+  }
+  .nav_desktop > ul li a {
+    color: var(--text);
+    font-size: 14px;
+    letter-spacing: -0.25px;
+  }
+  .list_dropdown > a span i {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  .nav_desktop > a {
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    border-radius: 64px;
+    background: #33db6c;
+    color: var(--textWhite);
+    font-size: 14px;
+  }
+  .nav_desktop > a i {
+    font-size: 25px;
+  }
+
+  /* header */
+  .ilustration_mobile {
+    display: none;
+  }
+  header {
+    padding: 80px 0 0 120px;
+    display: flex;
+    align-items: center;
+  }
+  .heading h1 {
+    font-size: 48px;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.5px;
+  }
+  .heading p {
+    font-size: 20px;
+    line-height: 32px; /* 160% */
+    letter-spacing: -0.25px;
+  }
+  .img_desktop > img {
+    position: relative;
+    display: block;
+    width: 605px;
+    height: 537px;
+  }
+  .img_desktop {
+    background-image: url(../asset/img/BGD.png);
+  }
+  .logo_univ {
+    display: none;
+  }
+  .logo_univ_destop {
+    display: block;
+    display: flex;
+    padding: 18px 0;
+    justify-content: center;
+    gap: 64px;
+  }
+
+  /* abotu */
+  .about {
+    padding: 64px 120px 120px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+  .about .mahesa_mobile {
+    display: none;
+  }
+  .tumblaindYT {
+    display: block;
+  }
+  .about_heading h1 {
+    font-size: 32px;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.25px;
+  }
+  .about_heading p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+  .about_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px 48px;
+  }
+  .detail .title h1 {
+    font-size: 24px;
+    letter-spacing: -0.25px;
+  }
+  .detail p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+  /* fasilitas */
+  .fasilitas {
+    padding: 80px 0 120px 120px;
+    display: flex;
+    gap: 80px;
+  }
+  .img_fasilitas {
+    display: block;
+  }
+  .fasilitas_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 32px;
+  }
+  .title_list {
+    display: block;
+    padding: 10px 0 10px 0;
+    gap: 6px;
+  }
+  .text_desktop {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    margin-top: 16px;
+  }
+
+  /* tutor */
+  .tutor {
+    padding: 64px 120px 120px;
+  }
+  .tutor h1 {
+    font-size: 32px;
+    line-height: 40px; /* 125% */
+    letter-spacing: -0.25px;
+  }
+  .slider {
+    display: none;
+  }
+  .button_slider {
+    display: none;
+  }
+  .tutor_desktop {
+    display: block;
+    display: flex;
+    gap: 30px;
+  }
+  .item_tutor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    font-size: 24px;
+    letter-spacing: -0.25px;
+  }
+
+  /* testimoni */
+  .testimoni {
+    padding: 64px 120px 120px;
+  }
+  .testimoni > h1 {
+    font-size: 32px;
+    letter-spacing: -0.25px;
+  }
+  .card_testimoni {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px 20px;
+  }
+  .author_name h1 {
+    font-size: 20px;
+    letter-spacing: -0.25px;
+  }
+  .author_name p {
+    font-size: 16px;
+  }
+  .detail_testimoni p {
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+  }
+
+  /* program */
+  .program {
+    padding: 56px 120px 80px;
+  }
+  .card_price {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px 20px;
+  }
+  .card_price > a {
+    display: none;
+  }
+  .btn_destop {
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--colors_primary);
+    line-height: 24px; /* 133.333% */
+    letter-spacing: -0.25px;
+  }
+  .title_program {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  /* footer */
+  footer {
+    padding: 48px 120px 68px;
+  }
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+  }
+  .social {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 0;
+    /* gap: 24px; */
+  }
+  .footer > ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .buttom {
+    border: none;
+  }
+}
+
+

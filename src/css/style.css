@@ -42,10 +42,10 @@ header {
   color: var(--textWhite);
   background: var(--colors_primary);
 }
-.heading img {
+.heading .ilustration_mobile {
   position: absolute;
-  right: 501px;
-  bottom: 100px;
+  right: 0;
+  top: 120px;
   width: 251.517px;
   height: 423.902px;
 }
@@ -61,7 +61,7 @@ header {
 .about {
   padding: 26px 0 80px;
 }
-.about img {
+.about .mahesa_mobile {
   margin: 0 0 80px;
 }
 .about .about_heading {
@@ -114,7 +114,7 @@ header {
   grid: auto / auto auto;
   gap: 16px 27px;
 }
-.item {
+.title_list {
   display: flex;
   align-items: center;
   padding: 10px 0px 10px 0;
@@ -211,14 +211,14 @@ header {
   padding: 56px 20px 40px;
   color: var(--text);
 }
-.program > h1 {
+.title_program > h1 {
   font-size: 22px;
   line-height: 28px; /* 127.273% */
   letter-spacing: -0.25px;
   margin: 0 0 32px;
 }
 
-.card_price > a {
+.program > a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,6 +271,9 @@ header {
   letter-spacing: -0.25px;
   color: var(--text);
 }
+.list_plan >i{
+  font-size: 26px;
+}
 .pricing_card > a {
   border-radius: 64px;
   display: flex;
@@ -299,6 +302,10 @@ footer > p {
   align-self: stretch;
   margin: 16px 0 32px;
 }
+.social > a{
+  font-size: 24px;
+  color: var(--textWhite);
+}
 footer > ul {
   display: flex;
   flex-direction: column;
@@ -307,7 +314,7 @@ footer > ul {
   align-self: stretch;
   list-style: none;
 }
-footer > ul li a {
+.footer > ul li a {
   color: var(--textWhite);
   font-size: 14px;
   letter-spacing: -0.25px;
