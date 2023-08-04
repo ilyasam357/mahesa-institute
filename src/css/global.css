@@ -1,67 +1,84 @@
-
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    /* max-width: 360px; */
-    margin-inline: auto;
-    background-color: #e0e0e0;
-    min-height: 100vh;
-    height: auto;
+  /* max-width: 360px; */
+  margin-inline: auto;
+  background-color: #e0e0e0;
+  min-height: 100vh;
+  height: auto;
 }
 
 .container {
-    /* background-color: #fff; */
-    min-height: 100vh;
-    height: auto;
-    background: #FFFFFF;
-    font-family: 'General Sans';
-    font-style: normal;
+  /* background-color: #fff; */
+  min-height: 100vh;
+  height: auto;
+  background: #ffffff;
+  font-family: "General Sans";
+  font-style: normal;
 }
-ul{
-    list-style: none;
+
+.container > a {
+  display: flex;
+  padding: 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  border-radius: 64px;
+  background: #33db6c;
+  color: var(--textWhite);
+  font-size: 16px;
+  position: fixed;
+  z-index: 2;
+  margin-left: 192px;
+  margin-top: 492px;
 }
-.bold{
-    font-weight: 700;
+.container > a i {
+  font-size: 25px;
 }
-.semiBold{
-    font-weight: 600;
+ul {
+  list-style: none;
 }
-.medium{
-    font-weight: 500;
+.bold {
+  font-weight: 700;
 }
-.reguler{
-    font-weight: 400;
+.semiBold {
+  font-weight: 600;
+}
+.medium {
+  font-weight: 500;
+}
+.reguler {
+  font-weight: 400;
 }
 :root {
   --text: #161616;
-  --colors_primary : #6A6FEF;
-  --textWhite:#FFFFFF;
-  --neu-400 :#818181;
+  --colors_primary: #6a6fef;
+  --textWhite: #ffffff;
+  --neu-400: #818181;
 }
 
-.Color_Green{
-    color: #3ea260;
+.Color_Green {
+  color: #3ea260;
 }
-.color_secondary2{
-    color: #F8803D;
+.color_secondary2 {
+  color: #f8803d;
 }
-.color_primary{
-    color: var(--colors_primary);
+.color_primary {
+  color: var(--colors_primary);
 }
-.pricing_card .green{
-    background: #3ea260;
+.pricing_card .green {
+  background: #3ea260;
 }
-.pricing_card .secondary2{
-    background: #F8803D;
+.pricing_card .secondary2 {
+  background: #f8803d;
 }
-.pricing_card .primary{
-    background: var(--colors_primary);
+.pricing_card .primary {
+  background: var(--colors_primary);
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }

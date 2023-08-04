@@ -45,7 +45,7 @@ header {
 .heading .ilustration_mobile {
   position: absolute;
   right: 0;
-  top: 120px;
+  top: 100px;
   width: 251.517px;
   height: 423.902px;
 }
@@ -240,6 +240,15 @@ header {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+.name_price >h1{
+  font-size: 18px;
+  letter-spacing: -0.25px;
+}
+.name_price > p{
+  font-size: 16px;
+  letter-spacing: -0.25px;
+  color:var(--neu-400);
 }
 .pricing_card > p {
   font-size: 16px;
