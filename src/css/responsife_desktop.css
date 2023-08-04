@@ -48,6 +48,11 @@
   .about .about_heading {
     padding: 0 40px;
   }
+  .mahesa_mobile{
+   margin: 0;
+   position: relative;
+   left: 200px;
+  }
   .about_list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -200,12 +205,12 @@
     gap: 64px;
   }
 
-  /* abotu */
+  /* about */
   .about {
     padding: 64px 120px 120px;
     display: flex;
     align-items: center;
-    gap: 70px;
+    gap: 10px;
   }
   .about .mahesa_mobile {
     display: none;
@@ -226,7 +231,7 @@
   .about_list {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 45px 48px;
+    gap: 25px 28px;
   }
   .detail .title h1 {
     font-size: 24px;
@@ -241,10 +246,11 @@
   .fasilitas {
     padding: 80px 0 120px 120px;
     display: flex;
-    gap: 80px;
+    gap: 20px;
   }
   .img_fasilitas {
     display: block;
+    overflow: hidden;
   }
   .fasilitas_list {
     display: grid;
@@ -256,7 +262,7 @@
     padding: 10px 0 10px 0;
     gap: 6px;
   }
-  .text_desktop {
+  .item > p {
     display: block;
     font-size: 16px;
     font-weight: 500;
@@ -279,10 +285,14 @@
   .button_slider {
     display: none;
   }
+  .tutor_desktop::-webkit-scrollbar {
+    width: 0;
+  }
   .tutor_desktop {
     display: block;
     display: flex;
     gap: 30px;
+    overflow-x: scroll;
   }
   .item_tutor {
     display: flex;
@@ -305,6 +315,14 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px 20px;
+  }
+  .item_testimoni .author{
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .play{
+    display: none;
   }
   .author_name h1 {
     font-size: 20px;
@@ -383,5 +401,139 @@
   .buttom {
     border: none;
     align-items: baseline;
+  }
+}
+
+/* responsife ful HD */
+@media screen and (min-width: 1920px) {
+  .nav_desktop {
+    padding: 25px 200px;
+  }
+  .logo > img {
+    width: 250px;
+  }
+  .nav_desktop > ul li a {
+    font-size: 25px;
+  }
+  .list_dropdown > a span i {
+    font-size: 23px;
+  }
+  .nav_desktop > a {
+    font-size: 25px;
+    padding: 15px 23px;
+    gap: 10px;
+  }
+  .nav_desktop > a i {
+    font-size: 30px;
+  }
+  /* header */
+  header {
+    padding: 80px 0 0 200px;
+  }
+  .heading h1 {
+    font-size: 70px;
+    line-height: 75px;
+    letter-spacing: -0.5px;
+  }
+  .heading p {
+    font-size: 25px;
+    margin-bottom: 45px;
+  }
+  .heading  a {
+    font-size: 25px;
+    border-radius: 64px;
+    padding: 17px 32px;
+  }
+  .img_desktop > img {
+    width: auto;
+    height: auto;
+  }
+  .logo_univ_destop{
+    padding: 25px 0;
+  }
+  .logo_univ_destop >img{
+     width: 150px;
+  }
+  /* about */
+  .about {
+    padding: 64px 200px 120px;
+  }
+  .about_heading h1 {
+    font-size: 40px;
+  }
+  .about_heading p{
+    font-size: 25px;
+    line-height: 29px;
+  }
+  .detail .title h1 {
+    font-size: 30px;
+  }
+  .detail .title > img{
+    width: 70px;
+  }
+  .detail p {
+    font-size: 25px;
+    line-height: 29px;
+  }
+  /* fasilitas */
+  .fasilitas {
+    padding: 80px 0 120px 200px;
+  }
+  .fasilitas  h1 {
+    font-size: 40px;
+  }
+  .item > p{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .title_list > img{
+    width: 40px;
+  }
+  .title_list > p{
+    font-size: 25px;
+  }
+  /* tutor */
+  .tutor {
+    padding: 64px 200px 120px;
+  }
+  .tutor h1 {
+    font-size: 40px;
+  }
+  .item_tutor > img{
+    width: 150px;
+  }
+  /* testimoni */
+  .testimoni {
+    padding: 64px 200px 120px;
+  }
+  .testimoni > h1 {
+    font-size: 40px;
+    letter-spacing: -0.25px;
+  }
+  .card_testimoni {
+    gap: 40px;
+  }
+  .item_testimoni .author{
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .play{
+    display: none;
+  }
+   /* program */
+   .program {
+    padding: 56px 200px 80px;
+  }
+  .card_price {
+    gap: 50px;
+  }
+  .pricing_card {
+    border-radius: 24px;
+    padding: 30px 25px;
+  }
+  /* footer */
+  footer {
+    padding: 48px 200px 68px;
   }
 }
