@@ -190,9 +190,12 @@
     display: block;
     width: 605px;
     height: 537px;
+    object-fit: scale-down;
   }
   .img_desktop {
     background-image: url(../asset/img/BGD.png);
+    background-repeat: no-repeat;
+    background-size: 1299.92px 475.122px;
   }
   .logo_univ {
     display: none;
@@ -251,6 +254,7 @@
   .img_fasilitas {
     display: block;
     overflow: hidden;
+    flex-basis: 100%;
   }
   .fasilitas_list {
     display: grid;
